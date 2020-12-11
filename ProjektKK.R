@@ -16,7 +16,7 @@ Funkcja1() -> nowy
 nowy %>% glimpse()
 
 nowy %>%
-  group_by(Segment) %>%
+  group_by(Segment) %>%1
   summarise(emis = sum(Emisja))
 
 Funkcja1()
