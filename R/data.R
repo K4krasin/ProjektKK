@@ -10,7 +10,8 @@
 #' @examples
 #'  \dontrun{
 #'   wskazniki
+#'   input
 #' }
 #'
 #'
-"wskazniki"
+"date"

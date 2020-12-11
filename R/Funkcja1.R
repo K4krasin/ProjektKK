@@ -13,10 +13,10 @@
 #' @examples
 Funkcja1 <- function(dane = input,
                      kategoria = "Passenger Cars",
-                     #paliwo = "Petrol",
+                     paliwo = "Petrol",
                      #segment = "Mini",
                      euro = "Euro 5",
-                     #technologia = "GDI",
+                     technologia = "GDI",
                      mode = "",
                      substancja = c("EC", "CO")) {
 
@@ -40,9 +40,8 @@ Funkcja1 <- function(dane = input,
 
   return(out)
 
+
 }
 
 
 
-
-getwd()
