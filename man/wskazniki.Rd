@@ -19,11 +19,4 @@ wskazniki
 \description{
 Adresy url
 }
-\examples{
- \dontrun{
-  wskazniki
-}
-
-
-}
 \keyword{datasets}

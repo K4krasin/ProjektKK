@@ -22,6 +22,8 @@ Funkcja1 <- function(dane = input,
 
   # Zabezpieczenia argumentĂłw funkcji i danych wejscioweych.
 
+  colnames(wskazniki)[15:17] <- c("Reduction", "Bio", "Procent")
+
   out <- wskazniki %>%
     filter(Category %in% kategoria) %>%
     filter(Fuel %in% paliwo) %>%
@@ -29,6 +31,8 @@ Funkcja1 <- function(dane = input,
     filter(Technology %in% technologia) %>%
     filter(Pollutant %in% substancja) %>%
     filter(Mode %in% mode)
+
+
 
   out <- inner_join(x = out, y = input, by = "Segment")
 

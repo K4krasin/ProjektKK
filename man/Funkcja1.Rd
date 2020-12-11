@@ -7,7 +7,9 @@
 Funkcja1(
   dane = input,
   kategoria = "Passenger Cars",
+  paliwo = "Petrol",
   euro = "Euro 5",
+  technologia = "GDI",
   mode = "",
   substancja = c("EC", "CO")
 )

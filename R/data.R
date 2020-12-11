@@ -9,9 +9,11 @@
 #'
 #' @examples
 #'  \dontrun{
-#'   wskazniki
+#'   wskazniki}
+#'  \donotrun{}
 #'   input
 #' }
 #'
 #'
-"date"
+"wskazniki"
+"input"
