@@ -1,4 +1,16 @@
 
+#' Obliczanie emisji
+#'
+#' @param dane
+#' @param kategoria
+#' @param euro
+#' @param mode
+#' @param substancja
+#'
+#' @return
+#' @export
+#'
+#' @examples
 Funkcja1 <- function(dane = input,
                      kategoria = "Passenger Cars",
                      #paliwo = "Petrol",
@@ -33,3 +45,4 @@ Funkcja1 <- function(dane = input,
 
 
 
+getwd()
