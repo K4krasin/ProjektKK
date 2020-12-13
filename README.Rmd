@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# giosimport
+# ProjektKK
 
 Celem powstałego pakietu jest obliczenie natężenia emisji dowolnego paliwa. Pakiet ten został stworzony na potrzeby przedmiotu Metody Inwentaryzacji i Szacowania Emisji.  
 Funkcje zawarte w pakiecie tworzą plikową bazę danych na dysku lokalnym. Cała baza nie jest duża i nie zabiera dużo miejsca na dysku. Dane zawarte w tym pakiecie nie są aktualizowane
