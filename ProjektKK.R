@@ -24,3 +24,5 @@ Funkcja1()
 
 ?ProjektKK
 
+use_r("Funkcja2")
+
