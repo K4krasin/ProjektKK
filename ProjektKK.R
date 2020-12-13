@@ -31,4 +31,6 @@ use_r("Funkcja2")
 
 Funkcja2()
 
-?ProjektKK
+?"ProjektKK"
+
+Funkcja2()
