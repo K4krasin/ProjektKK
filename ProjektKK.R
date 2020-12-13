@@ -17,13 +17,12 @@ check()
 load_all()
 
 
-
 Funkcja1()
 ?Funkcja1
 
 
 
-Funkcja2()
+?Funkcja2()
 
 ?Funkcja1
 Funkcja1()

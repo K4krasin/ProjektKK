@@ -44,7 +44,7 @@ Funkcja2 <- function(dane = input,
     select(Category, Fuel, Euro.Standard, Technology, Pollutant, Mode, Segment, Nat, Emisja)
 
   gg <- ggplot(out, aes(x=Nat, y=Emisja)) +
-    geom_point(aes(col=Pollutant, size=Nat)) +
+    geom_point(aes(col=Pollutant, size=3)) +
     geom_smooth(method="loess", se=F) +
     xlim(c(100, 210))
   labs(y="Emisja",

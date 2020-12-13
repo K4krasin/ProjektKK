@@ -36,7 +36,7 @@ Kierunek - Geoinformacja
 
 #Instalacja pakietu
 
-```{r}
+```{r echo=TRUE}
 # devtools, sprawdzamy czy jest, jeśli nie to instalujemy i wczytujemy
 if(!require(devtools)) {install.packages("devtools"); require(devtools)}
 # instalcja pakietu gios_import
@@ -49,10 +49,9 @@ Zostal on odpowiednio zmodyfikowany i przygotowany do pracy. Wersja na ktorej dz
 
 Biblioteki które sa niezbedne aby ten pakiet jakos dzialal.
 
-```{r}
+```{r echo=TRUE}
 library(dplyr)
 library(ggplot2)
-library(tidyverse)
 library(devtools)
 ```
 
