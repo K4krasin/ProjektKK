@@ -16,7 +16,17 @@ Funkcja2(
 )
 }
 \arguments{
-\item{substancja}{}
+\item{dane}{dane wejsciowe}
+
+\item{kategoria}{rodzaj auta}
+
+\item{paliwo}{rodzaj paliwa}
+
+\item{euro}{euro}
+
+\item{mode}{mode}
+
+\item{substancja}{zanieczyszczenie}
 }
 \value{
 

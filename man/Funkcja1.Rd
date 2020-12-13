@@ -2,7 +2,8 @@
 % Please edit documentation in R/Funkcja1.R
 \name{Funkcja1}
 \alias{Funkcja1}
-\title{Obliczanie emisji}
+\title{Funkcja oblicza emisje dla aut osobowych poruszajacych sie na diesel, z technologia DPF.
+Pod uwage brane sa zanieczyszczenia EC oraz CO.}
 \usage{
 Funkcja1(
   dane = input,
@@ -15,11 +16,22 @@ Funkcja1(
 )
 }
 \arguments{
-\item{substancja}{}
+\item{dane}{dane wejsciowe}
+
+\item{kategoria}{rodzaj auta}
+
+\item{paliwo}{rodzaj paliwa}
+
+\item{euro}{euro}
+
+\item{mode}{mode}
+
+\item{substancja}{zanieczyszczenie}
 }
 \value{
 
 }
 \description{
-Obliczanie emisji
+Funkcja oblicza emisje dla aut osobowych poruszajacych sie na diesel, z technologia DPF.
+Pod uwage brane sa zanieczyszczenia EC oraz CO.
 }
