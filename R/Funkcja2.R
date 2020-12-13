@@ -36,5 +36,5 @@ Funkcja2 <- function(dane = input,
 
   out <- inner_join(x = out, y = input, by = "Segment")
 
-  g <-
+}
 

@@ -22,7 +22,7 @@ nowy %>%
 
 Funkcja1()
 
-?ProjektKK
+ ?ProjektKK
 
 use_r("Funkcja2")
 

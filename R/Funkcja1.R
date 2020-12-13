@@ -13,10 +13,10 @@
 #' @examples
 Funkcja1 <- function(dane = input,
                      kategoria = "Passenger Cars",
-                     paliwo = "Petrol",
+                     paliwo = "Diesel",
                      #segment = "Mini",
-                     euro = "Euro 5",
-                     technologia = "GDI",
+                     euro = "Euro 4",
+                     technologia = "DPF",
                      mode = "",
                      substancja = c("EC", "CO")) {
 
