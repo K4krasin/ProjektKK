@@ -54,22 +54,7 @@ library(openxlsx)
 library(tidyverse)
 ```
 
-Funkcja 1 
 
-```{r}
-load_all()
-Funkcja1() -> nowy
-    nowy %>% glimpse()
 
- nowy %>%
-   group_by(Segment) %>%
-   summarise(emis = sum(Emisja))
 
-```
-
-Funkcja 2
-
-```{r}
-Funkcja2()
-```
 
