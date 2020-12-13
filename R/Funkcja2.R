@@ -1,12 +1,12 @@
 #' Wykres
 #' Przedstawia on zależnosc emisji od natezenia ruchu
-#' @param dane
-#' @param kategoria
-#' @param paliwo
-#' @param euro
-#' @param technologia
-#' @param mode
-#' @param substancja
+#'
+#' @param dane dane wejsciowe
+#' @param kategoria rodzaj auta
+#' @param euro euro
+#' @param mode mode
+#' @param substancja zanieczyszczenie
+#' @param paliwo rodzaj paliwa
 #'
 #' @return
 #' @export

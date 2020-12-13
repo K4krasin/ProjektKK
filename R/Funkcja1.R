@@ -1,11 +1,13 @@
 
-#' Obliczanie emisji
+#' Funkcja oblicza emisje dla aut osobowych poruszajacych sie na diesel, z technologia DPF.
+#' Pod uwage brane sa zanieczyszczenia EC oraz CO.
 #'
-#' @param dane
-#' @param kategoria
-#' @param euro
-#' @param mode
-#' @param substancja
+#' @param dane dane wejsciowe
+#' @param kategoria rodzaj auta
+#' @param euro euro
+#' @param mode mode
+#' @param substancja zanieczyszczenie
+#' @param paliwo rodzaj paliwa
 #'
 #' @return
 #' @export

@@ -16,19 +16,15 @@ use_r("ProjektKK")
 check()
 load_all()
 
-Funkcja1() -> nowy
-nowy %>% glimpse()
 
-nowy %>%
-  group_by(Segment) %>%
-  summarise(emis = sum(Emisja))
 
 Funkcja1()
 ?Funkcja1
 
-use_r("Funkcja2")
+
 
 Funkcja2()
 
 ?Funkcja1
 Funkcja1()
+

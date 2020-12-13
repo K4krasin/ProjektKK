@@ -18,8 +18,8 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
+knitr::opts_chunk$set(echo = FALSE)
 library(ProjektKK)
-getwd()
 ```
 
 ***
@@ -44,6 +44,8 @@ if(!require(devtools)) {install.packages("devtools"); require(devtools)}
 library(ProjektKK)
 ```
 
+Do funkcjonowania projektu potrzebny byl plik bazowy, podany na zajeciach '1.A.3.b.i-iv Road Transport Appendix 4 Emission Factors 2019.xlsx'
+Zostal on odpowiednio zmodyfikowany i przygotowany do pracy. Wersja na ktorej dziala nasz pakiet to plik 'wskazniki'.
 
 Biblioteki które sa niezbedne aby ten pakiet jakos dzialal.
 
@@ -61,7 +63,6 @@ Za pomoca pierwszej z nich jestesmy w stanie obliczyc emisje zanieczyszczen EC i
 Druga zas tworzy niesamowity wykres zaleznosci pomiedzy emisja a natezeniem dla poszczegolnych zanieczyszczen.
 
 ```{r}
-load_all()
 Funkcja1()
 Funkcja2()
 ```

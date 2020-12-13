@@ -20,7 +20,7 @@ Funkcje zawarte w pakiecie tworzą plikową bazę danych na dysku lokalnym. Cał
 więc wystarczy je pobrać wyłącznie raz.
 
 
-# Instalacja (szybka)
+# Instalacja bez winiety
 
 ```{r setup, eval=FALSE}
 # Potrzebujesz devtools ?
@@ -33,7 +33,7 @@ library(ProjektKK)
 
 
 
-# Instalacja wraz z winietą (wolna)
+# Instalacja wraz z winietą 
 
 ```{r, eval=F}
  Potrzebujesz devtools ?
@@ -44,7 +44,7 @@ install_github("K4krasin/ProjektKK", force = T, build_vignettes = T)
 library(ProjektKK)
 ```
 
-Ciesz się winietą w systemie pomocy.
+Winieta jakas, ale rowniez jest dostepna w tym pakiecie.
 
 ```{r, eval=FALSE}
 Podgląd winiety w przeglądarce
