@@ -11,7 +11,7 @@ Cała baza nie jest duża i nie zabiera dużo miejsca na dysku. Dane
 zawarte w tym pakiecie nie są aktualizowane więc wystarczy je pobrać
 wyłącznie raz.
 
-# Instalacja (szybka)
+# Instalacja bez winiety
 
 ``` r
 # Potrzebujesz devtools ?
@@ -22,7 +22,7 @@ install_github("K4krasin/ProjektKK")
 library(ProjektKK)
 ```
 
-# Instalacja wraz z winietą (wolna)
+# Instalacja wraz z winietą
 
 ``` r
  Potrzebujesz devtools ?
@@ -31,9 +31,11 @@ if (!require(devtools)) {install.packages("devtools"); require(devtools)}
  Instalujesz i wczytujesz
 install_github("K4krasin/ProjektKK", force = T, build_vignettes = T)
 library(ProjektKK)
+library(ggplot2)
+library(dplyr)
 ```
 
-Ciesz się winietą w systemie pomocy.
+Winieta jakas, ale rowniez jest dostepna w tym pakiecie.
 
 ``` r
 Podgląd winiety w przeglądarce

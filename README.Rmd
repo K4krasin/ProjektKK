@@ -42,8 +42,9 @@ if (!require(devtools)) {install.packages("devtools"); require(devtools)}
  Instalujesz i wczytujesz
 install_github("K4krasin/ProjektKK", force = T, build_vignettes = T)
 library(ProjektKK)
+library(ggplot2)
+library(dplyr)
 ```
-
 Winieta jakas, ale rowniez jest dostepna w tym pakiecie.
 
 ```{r, eval=FALSE}
