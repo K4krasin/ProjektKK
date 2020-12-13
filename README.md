@@ -23,7 +23,7 @@ library(ProjektKK)
 ```
 
 Teraz możesz zapoznaź się z samouczkiem w celu skorzystania z pakietu
-`giosimport`
+`ProjektKK`
 
 ``` r
 #browseURL("https://rpubs.com/rzeszut/giosimport")
@@ -38,23 +38,23 @@ Możesz skorzysta z pomocy projektu.
 # Instalacja wraz z winietą (wolna)
 
 ``` r
-# Potrzebujesz devtools ?
-#if (!require(devtools)) {install.packages("devtools"); require(devtools)}
+ Potrzebujesz devtools ?
+if (!require(devtools)) {install.packages("devtools"); require(devtools)}
 
-# Instalujesz i wczytujesz
-#install_github("mrzeszut/giosimport", force = T, build_vignettes = T)
-#library(giosimport)
+ Instalujesz i wczytujesz
+install_github("K4krasin/ProjektKK", force = T, build_vignettes = T)
+library(ProjektKK)
 ```
 
 Ciesz się winietą w systemie pomocy.
 
 ``` r
-# Podgląd winiety w przeglądarce
-#browseVignettes("giosimport")
+Podgląd winiety w przeglądarce
+browseVignettes("ProjektKK")
 
 # przejrzyj w oknie pomocy
-#vignette("giosimport")
+vignette("ProjektKK")
 
-# wyswietli tylko kod
-#edit(vignette("giosimport"))
+ wyswietli tylko kod
+edit(vignette("ProjektKK"))
 ```
