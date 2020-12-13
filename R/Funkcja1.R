@@ -10,12 +10,7 @@
 #' @return
 #' @export
 #'
-#' @examples Funkcja1() -> nowy
-#'    nowy %>% glimpse()
 #'
-#' nowy %>%
-#'   group_by(Segment) %>%
-#'   summarise(emis = sum(Emisja))
 #'
 #'
 Funkcja1 <- function(dane = input,

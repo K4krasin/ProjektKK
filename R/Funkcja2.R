@@ -14,13 +14,13 @@
 #' @examples Funkcja2()
 
 Funkcja2 <- function(dane = input,
-                     kategoria = c("Passenger Cars","Light Commercial Vehicles", "Heavy Duty Trucks", "Buses"),
-                     paliwo = c("Petrol", "Diesel", "Biodiesel", "Petrol Hybrid", "CNG"),
+                     kategoria = "Passenger Cars",
+                     paliwo = "Diesel",
                      #segment = "Mini",
-                     euro = c("Euro 5", "Euro 4"),
-                     technologia = c("PFI", "GDI","DPF + SCR","EGR", "DPF" ),
+                     euro = "Euro 4",
+                     technologia ="DPF",
                      mode = "",
-                     substancja = c("EC", "CO", "NOx", "CH4")) {
+                     substancja = c("EC", "CO")) {
 
   colnames(wskazniki)[15:17] <- c("Reduction", "Bio", "Procent")
 
@@ -52,7 +52,7 @@ Funkcja2 <- function(dane = input,
        title="Wykres przedstawiajcy zależnosc emisji od natezenia ruchu",
        caption = "Source: midwest")
 
-  plot(gg)
+
 
   return(gg)
 

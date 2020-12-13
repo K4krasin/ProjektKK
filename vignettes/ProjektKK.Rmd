@@ -61,6 +61,7 @@ Za pomoca pierwszej z nich jestesmy w stanie obliczyc emisje zanieczyszczen EC i
 Druga zas tworzy niesamowity wykres zaleznosci pomiedzy emisja a natezeniem dla poszczegolnych zanieczyszczen.
 
 ```{r}
+load_all()
 Funkcja1()
 Funkcja2()
 ```

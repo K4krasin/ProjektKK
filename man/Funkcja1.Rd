@@ -23,13 +23,3 @@ Funkcja1(
 \description{
 Obliczanie emisji
 }
-\examples{
-Funkcja1() -> nowy
-   nowy \%>\% glimpse()
-
-nowy \%>\%
-  group_by(Segment) \%>\%
-  summarise(emis = sum(Emisja))
-
-
-}

@@ -22,19 +22,6 @@ install_github("K4krasin/ProjektKK")
 library(ProjektKK)
 ```
 
-Teraz możesz zapoznaź się z samouczkiem w celu skorzystania z pakietu
-`ProjektKK`
-
-``` r
-#browseURL("https://rpubs.com/rzeszut/giosimport")
-```
-
-Możesz skorzysta z pomocy projektu.
-
-``` r
-?"ProjektKK"
-```
-
 # Instalacja wraz z winietą (wolna)
 
 ``` r

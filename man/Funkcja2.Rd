@@ -7,13 +7,12 @@ Przedstawia on zależnosc emisji od natezenia ruchu}
 \usage{
 Funkcja2(
   dane = input,
-  kategoria = c("Passenger Cars", "Light Commercial Vehicles", "Heavy Duty Trucks",
-    "Buses"),
-  paliwo = c("Petrol", "Diesel", "Biodiesel", "Petrol Hybrid", "CNG"),
-  euro = c("Euro 5", "Euro 4"),
-  technologia = c("PFI", "GDI", "DPF + SCR", "EGR", "DPF"),
+  kategoria = "Passenger Cars",
+  paliwo = "Diesel",
+  euro = "Euro 4",
+  technologia = "DPF",
   mode = "",
-  substancja = c("EC", "CO", "NOx", "CH4")
+  substancja = c("EC", "CO")
 )
 }
 \arguments{
