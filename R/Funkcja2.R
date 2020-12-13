@@ -49,7 +49,7 @@ Funkcja2 <- function(dane = input,
     xlim(c(100, 210))
   labs(y="Emisja",
        x="Natezenie",
-       title="Wykres przedstawiajcy zależnosc emisji od natezenia ruchu",
+       title = "Wykres przedstawiajcy zależnosc emisji od natezenia ruchu",
        caption = "Source: midwest")
 
 
