@@ -12,7 +12,7 @@ Funkcja2(
   euro = c("Euro 5", "Euro 4"),
   technologia = c("PFI", "GDI", "DPF + SCR", "EGR", "DPF"),
   mode = "",
-  substancja = c("EC", "CO", "NOx", "CH4", "NH3")
+  substancja = c("EC", "CO", "NOx", "CH4")
 )
 }
 \arguments{

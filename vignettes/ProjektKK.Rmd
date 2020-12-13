@@ -57,6 +57,7 @@ library(tidyverse)
 Funkcja 1 
 
 ```{r}
+load_all()
 Funkcja1() -> nowy
     nowy %>% glimpse()
 

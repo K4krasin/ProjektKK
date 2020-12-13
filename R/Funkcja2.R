@@ -20,7 +20,7 @@ Funkcja2 <- function(dane = input,
                      euro = c("Euro 5", "Euro 4"),
                      technologia = c("PFI", "GDI","DPF + SCR","EGR", "DPF" ),
                      mode = "",
-                     substancja = c("EC", "CO", "NOx", "CH4", "NH3")) {
+                     substancja = c("EC", "CO", "NOx", "CH4")) {
 
   colnames(wskazniki)[15:17] <- c("Reduction", "Bio", "Procent")
 
