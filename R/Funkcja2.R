@@ -36,5 +36,15 @@ Funkcja2 <- function(dane = input,
 
   out <- inner_join(x = out, y = input, by = "Segment")
 
+  g <- ggplot(out, aes(segment, emisja, size = pop, frame = year)) +
+    geom_point() +
+    geom_smooth(aes(group = segment),
+                method = "lm",
+                show.legend = FALSE) +
+    facet_wrap(~continent, scales = "free") +
+    scale_x_log10()  # convert to log scale
+
+  animate(g, interval=0.2)
+
 }
 

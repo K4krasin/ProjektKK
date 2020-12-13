@@ -2,6 +2,8 @@ library(devtools)
 library(tidyverse)
 library(roxygen2)
 library(dplyr)
+library(gganimate)
+
 use_git()
 use_r("Funkcja1")
 document()
@@ -26,3 +28,4 @@ Funkcja1()
 
 use_r("Funkcja2")
 
+Funkcja2()
