@@ -6,12 +6,13 @@
 \usage{
 Funkcja2(
   dane = input,
-  kategoria = "Passenger Cars",
-  paliwo = "Petrol",
-  euro = "Euro 5",
-  technologia = "GDI",
+  kategoria = c("Passenger Cars", "Light Commercial Vehicles", "Heavy Duty Trucks",
+    "Buses"),
+  paliwo = c("Petrol", "Diesel", "Biodiesel", "Petrol Hybrid", "CNG"),
+  euro = c("Euro 5", "Euro 4"),
+  technologia = c("PFI", "GDI", "DPF + SCR", "EGR", "DPF"),
   mode = "",
-  substancja = c("EC", "CO")
+  substancja = c("EC", "CO", "NOx", "CH4", "NH3")
 )
 }
 \arguments{

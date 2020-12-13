@@ -23,7 +23,7 @@ nowy %>%
   summarise(emis = sum(Emisja))
 
 Funkcja1()
-
+?Funkcja1
 
  ?ProjektKK
 

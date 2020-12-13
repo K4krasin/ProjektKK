@@ -45,7 +45,7 @@ library(ProjektKK)
 ```
 
 
-Oby wszystko dzialalo!!!
+Biblioteki które moga byc potrzebne do tego pakietu.
 
 ```{r}
 library(dplyr)
@@ -54,5 +54,21 @@ library(openxlsx)
 library(tidyverse)
 ```
 
+Funkcja 1 
 
+```{r}
+Funkcja1() -> nowy
+    nowy %>% glimpse()
+
+ nowy %>%
+   group_by(Segment) %>%
+   summarise(emis = sum(Emisja))
+
+```
+
+Funkcja 2
+
+```{r}
+Funkcja2()
+```
 

@@ -10,7 +10,14 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples Funkcja1() -> nowy
+#'    nowy %>% glimpse()
+#'
+#' nowy %>%
+#'   group_by(Segment) %>%
+#'   summarise(emis = sum(Emisja))
+#'
+#'
 Funkcja1 <- function(dane = input,
                      kategoria = "Passenger Cars",
                      paliwo = "Diesel",
