@@ -10,10 +10,49 @@ vignette: >
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  echo = T,
+  message = F,
+  warning = F
 )
 ```
 
 ```{r setup}
 library(ProjektKK)
+getwd()
 ```
+
+***
+
+**Kacper Krasicki**
+
+**AGH** 
+Akademia Górniczo - Hutnicza im. Stanisława Staszica w Krakowie
+Wydzia Geodezji Górniczej i Inżynierii Środowiska
+Kierunek - Geoinformacja
+
+**E-mail** kkrasicki98@gmail.com
+
+
+#Instalacja pakietu
+
+```{r}
+# devtools, sprawdzamy czy jest, jeśli nie to instalujemy i wczytujemy
+if(!require(devtools)) {install.packages("devtools"); require(devtools)}
+# instalcja pakietu gios_import
+devtools::install_github("K4krasin/ProjektKK")
+library(ProjektKK)
+```
+
+
+Oby wszystko dzialalo!!!
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(openxlsx)
+library(tidyverse)
+```
+
+
+
