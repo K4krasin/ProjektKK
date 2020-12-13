@@ -1,5 +1,5 @@
-#' Title
-#'
+#' Wykres
+#' Przedstawia on zależnosc emisji od natezenia ruchu
 #' @param dane
 #' @param kategoria
 #' @param paliwo
@@ -11,7 +11,7 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples Funkcja2()
 
 Funkcja2 <- function(dane = input,
                      kategoria = c("Passenger Cars","Light Commercial Vehicles", "Heavy Duty Trucks", "Buses"),

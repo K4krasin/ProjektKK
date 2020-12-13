@@ -2,13 +2,14 @@ library(devtools)
 library(tidyverse)
 library(roxygen2)
 library(dplyr)
-library(gganimate)
-
+library(ProjektK-K)
 use_git()
 use_r("Funkcja1")
 document()
 check()
 use_mit_license("KKrasicki")
+
+use_package("ggplot2")
 
 use_r("data.R")
 
@@ -25,12 +26,9 @@ nowy %>%
 Funkcja1()
 ?Funkcja1
 
- ?ProjektKK
-
 use_r("Funkcja2")
 
 Funkcja2()
 
-?"ProjektKK"
 
-Funkcja2()
+

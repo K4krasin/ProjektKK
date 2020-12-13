@@ -2,7 +2,8 @@
 % Please edit documentation in R/Funkcja2.R
 \name{Funkcja2}
 \alias{Funkcja2}
-\title{Title}
+\title{Wykres
+Przedstawia on zależnosc emisji od natezenia ruchu}
 \usage{
 Funkcja2(
   dane = input,
@@ -22,5 +23,9 @@ Funkcja2(
 
 }
 \description{
-Title
+Wykres
+Przedstawia on zależnosc emisji od natezenia ruchu
+}
+\examples{
+Funkcja2()
 }

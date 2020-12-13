@@ -16,7 +16,8 @@ RoxygenNote: 7.1.1
 Imports: 
     base,
     dplyr,
-    stats
+    stats,
+    ggplot2
 Suggests: 
     knitr,
     rmarkdown

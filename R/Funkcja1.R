@@ -49,6 +49,10 @@ Funkcja1 <- function(dane = input,
     ) %>%
     select(Category, Fuel, Euro.Standard, Technology, Pollutant, Mode, Segment, Nat, Emisja)
 
+  out %>%
+    group_by(Segment) %>%
+    summarise(emis = sum(Emisja)) -> out
+
   return(out)
 
 
